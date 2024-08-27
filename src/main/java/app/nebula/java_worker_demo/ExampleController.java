@@ -14,9 +14,9 @@ public class ExampleController {
 
     @Resource
     private Client client;
-
-    @Resource(name = "jedis")
-    private Jedis jedis;
+//
+//    @Resource(name = "jedis")
+//    private Jedis jedis;
 
     @GetMapping("/hello")
     public String helloWorld() {
@@ -29,17 +29,17 @@ public class ExampleController {
         return client.echo("");
     }
 
-    @Idempotent
-    @GetMapping("/setRedis")
-    public String setRedis(){
-        jedis.set("key1","value1");
-        return "done";
-    }
-
-    @GetMapping("/getRedis")
-    public String getRedis(){
-//        return  "done";
-       return jedis.get("key1");
-    }
+//    @Idempotent
+//    @GetMapping("/setRedis")
+//    public String setRedis(){
+//        jedis.set("key1","value1");
+//        return "done";
+//    }
+//
+//    @GetMapping("/getRedis")
+//    public String getRedis(){
+////        return  "done";
+//       return jedis.get("key1");
+//    }
 
 }
