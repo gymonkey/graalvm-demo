@@ -9,8 +9,8 @@ public class JedisClient {
 
     @Bean(name = "jedis")
     public Jedis getJedis(){
-        Jedis jedis = new Jedis("redis.lizhi.fm", 6379, false);
-//        jedis.auth("AX2zAAIjcDE2MWYzMTEwNGFiMWU0NGI3OTUyY2I5YmU5NTFhMzc1ZnAxMA");
+        Jedis jedis = new Jedis("ruling-macaque-32179.upstash.io", 6379, false);
+        jedis.auth("AX2zAAIjcDE2MWYzMTEwNGFiMWU0NGI3OTUyY2I5YmU5NTFhMzc1ZnAxMA");
         return jedis;
     }
 
