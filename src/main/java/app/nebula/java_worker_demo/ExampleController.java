@@ -1,8 +1,6 @@
 package app.nebula.java_worker_demo;
 
 import app.nebula.java_worker_demo.client.Client;
-import app.nebula.java_worker_demo.mysql.Env;
-import app.nebula.java_worker_demo.mysql.EnvMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
