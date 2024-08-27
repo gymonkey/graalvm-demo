@@ -20,9 +20,6 @@ public class ExampleController {
     @Resource(name = "jedis")
     private Jedis jedis;
 
-    @Resource
-    private EnvMapper envMapper;
-
     @GetMapping("/hello")
     public String helloWorld() {
         return "hello world";
@@ -45,11 +42,6 @@ public class ExampleController {
     public String getRedis(){
 //        return  "done";
        return jedis.get("key1");
-    }
-
-    @GetMapping("/getMysql")
-    public List<Env> getAllEnv(){
-        return envMapper.selectAll();
     }
 
 }
