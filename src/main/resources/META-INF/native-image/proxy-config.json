@@ -1,0 +1,32 @@
+[
+  {
+    "interfaces":["app.nebula.java_worker_demo.client.Client"]
+  },
+  {
+    "interfaces":["app.nebula.java_worker_demo.mysql.EnvMapper"]
+  },
+  {
+    "interfaces":["java.lang.reflect.GenericArrayType","org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy","java.io.Serializable"]
+  },
+  {
+    "interfaces":["java.lang.reflect.ParameterizedType","org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy","java.io.Serializable"]
+  },
+  {
+    "interfaces":["java.lang.reflect.TypeVariable","org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy","java.io.Serializable"]
+  },
+  {
+    "interfaces":["java.lang.reflect.WildcardType","org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy","java.io.Serializable"]
+  },
+  {
+    "interfaces":["org.apache.ibatis.session.SqlSession"]
+  },
+  {
+    "interfaces":["org.springframework.boot.context.properties.ConfigurationProperties"]
+  },
+  {
+    "interfaces":["org.springframework.web.bind.annotation.PathVariable"]
+  },
+  {
+    "interfaces":["org.springframework.web.bind.annotation.RequestMapping"]
+  }
+]
