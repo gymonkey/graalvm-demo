@@ -7,7 +7,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients
 @SpringBootApplication
-@AutoConfiguration
 public class JavaWorkerDemoApplication {
 
 	public static void main(String[] args) {
